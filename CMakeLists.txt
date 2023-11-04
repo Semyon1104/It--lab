@@ -4,7 +4,7 @@ if(MSVC)
     option(gtest_force_shared_crt "" TRUE)
 endif(MSVC)
 
-add_subdirectory(3rdparty/googletest)
+add_subdirectory(3rdparty)
 
 set(current_project "temp_exec")
 project(${current_project})
